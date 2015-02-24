@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActionBar Color</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="color">#EF1111</string>
+</resources>

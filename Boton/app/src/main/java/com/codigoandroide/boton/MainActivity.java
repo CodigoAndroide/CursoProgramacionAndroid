@@ -1,6 +1,7 @@
 package com.codigoandroide.boton;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -42,6 +43,14 @@ public class MainActivity extends ActionBarActivity {
     public void BTActividad (View view) {
         Intent intent = new Intent(this, LoginActivity.class);
 
+        startActivity(intent);
+
+    }
+
+    public void BTEnlace (View view) {
+        String link = "http://www.codigoandroide.com";
+        Intent intent = null;
+        intent = new Intent(intent.ACTION_VIEW, Uri.parse(link));
         startActivity(intent);
 
     }
